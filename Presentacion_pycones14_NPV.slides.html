@@ -1725,7 +1725,6 @@ div.output_prompt {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<hr />
 <BR>
 <center>
 <h2>
@@ -1736,7 +1735,10 @@ Hacerlos más visibles,atractivos y útiles más allá del localhost
 </h4>
 <BR>
 <p>
-<img style="float:center" src="http://ipython.org/_static/IPy_header.png" width="400" height="225">
+<img style="float:center" src="http://ipython.org/_static/IPy_header.png" width="200" height="225">
+</p>
+<p>
+<img style="float:center" src="http://nbviewer.ipython.org/github/ellisonbg/talk-2014-summer/blob/master/images/jupyter_logo.png" width="200" height="225">
 </p>
 </center>
 <BR>
@@ -1744,12 +1746,6 @@ Hacerlos más visibles,atractivos y útiles más allá del localhost
 <b>Núria Pujol Vilanova @llevaNEUS</b><BR> nuriapujolvilanova@gmail.com<BR> npujol@utm.csic.es
 </p>
 <BR>
-<!--
-<a href="http://ow.ly/i/7qKyP" target="_blank"><img src="http://static.ow.ly/photos/normal/7qKyP.jpg" alt="Owly Images" width="300"/></a>
--->
-
-
-<hr />
 </div>
 </div>
 </div></section>
@@ -1765,15 +1761,18 @@ Hacerlos más visibles,atractivos y útiles más allá del localhost
 <h2>
 Un poco sobre mi (prometo ser breve)
 </h2> 
-<hr />
 <BR>
-<h3 id="núria-pujol-vilanova">NÚRIA PUJOL VILANOVA</h3>
-<h4 id="departamento-de-plataformas-autónomas">Departamento de Plataformas Autónomas</h4>
-Centro Mediterráneo de Investigaciones Marinas y Ambientales del CSIC (Barcelona)<br />(posar alguna foto) <em>_</em>
+<h3>
+NÚRIA PUJOL VILANOVA
+</h3> 
+
+<ul>
+<b>Departamento de Plataformas Autónomas</b> <BR> Centro Mediterráneo de Investigaciones Marinas y Ambientales del CSIC (Barcelona)
+</ul>
 </center>
 </div>
 </div>
-</div></section><section>
+</div><div class="fragment">
     
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
@@ -1781,16 +1780,20 @@ Centro Mediterráneo de Investigaciones Marinas y Ambientales del CSIC (Barcelon
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <center>
-<a href="http://ow.ly/i/7qKyP" target="_blank"><img src="http://static.ow.ly/photos/normal/7qKyP.jpg" alt="Owly Images" width="300"/></a> <BR>
+<a href="http://ow.ly/i/7qKyP" target="_blank"><img src="http://static.ow.ly/photos/normal/7qKyP.jpg" alt="Owly Images" width="250"/></a> <BR>
 <ul>
-<li>Defensora de Python desde que lo descubrí (&gt; 5 años)<br /></li>
-<li>Apasionada de la electrónica y del &quot;cacharreo&quot;</li>
+<li>
+Usuaria i defensora de Python desde que lo descubrí (&gt; 5 años)
+</li>
+<li>
+Apasionada de la electrónica y del &quot;cacharreo&quot;
+</li>
 </ul>
-(posar foto del meu bolso) <em>_</em>
 </center>
 </div>
 </div>
-</div><div style=display:none>
+</div>
+    </div><div style=display:none>
     
                 Per installar una copia de Mathjax de forma local
 
@@ -1810,11 +1813,9 @@ from IPython.external import mathjax; mathjax.install_mathjax()
 <h2 align="center">
 IPhthon Notebook
 </h2>
-<hr />
 <p align="center">
 <img src="images/notebook_aparence.png" width="900" height="225" align="middle" />
 </p>
-<hr />
 </div>
 </div>
 </div></section><section>
@@ -1841,17 +1842,23 @@ Entonces...<BR><BR>IPYTHON NOTEBOOK ES UN ENTORNO WEB PARA SER EJECUTADO EN LOCA
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <center>
-<h1 id="se-trata-de-ficheros-json-con-extensión-.ipynb">Se trata de ficheros JSON con extensión .ipynb</h1>
+<h1>
+Ficheros JSON con extensión .ipynb
+</h1>
 <ul>
-<li>Permite la fácil conversión a otros formatos</li>
-<li>Diseñado con la finalidad de ser <strong>COMPARTIDO</strong>
+<li>
+Permite la fácil conversión a otros formatos
+</li>
+<li>
+Diseñado con la finalidad de ser COMPARTIDO
+</li>
+</ul>
 </center>
+
 <!--<center>
 <p><img src="images/JSON.png" width="500" height="225" align="middle" /></p>
 </center>
 -->
-</li>
-</ul>
 </div>
 </div>
 </div>
@@ -1865,38 +1872,16 @@ Entonces...<BR><BR>IPYTHON NOTEBOOK ES UN ENTORNO WEB PARA SER EJECUTADO EN LOCA
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <center>
-<h1 id="canvios-de-formato">Canvios de formato</h1>
-<h4 id="html-pdf-latex-python">HTML, PDF (Latex), PyThon</h4>
-<strong>ipython nbconvert --to FORMAT notebook.ipynb</strong>
+<h1>
+Canvios de formato
+</h1>
+<h4>
+HTML, PDF (Latex), Python...
+<h4>
 </center>
 </div>
 </div>
 </div><div class="fragment">
-    
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>!ipython nbconvert --to slides Presentacion_pycones14_NPV.ipynb</p>
-</div>
-</div>
-</div>
-    </div><div class="fragment">
-    
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<ul>
-<li><a href="/Presentacion_pycones14_NPV.slides.html?theme=sky">Presentación 1</a></li>
-<li><a href="/Presentacion_pycones14_NPV.slides.html?transition=cube">Presentación 2</a></li>
-</ul>
-</div>
-</div>
-</div>
-    </div><div style=display:none>
     
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
@@ -1912,41 +1897,385 @@ In&nbsp;[]:
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>
-[NbConvertApp] Using existing profile dir: u&apos;/home/nuria/.ipython/profile_default&apos;
-[NbConvertApp] Converting notebook Presentacion_pycones14_NPV.ipynb to slides
-[NbConvertApp] Support files will be in Presentacion_pycones14_NPV_files/
-[NbConvertApp] Loaded template slides_reveal.tpl
-/usr/local/lib/python2.7/dist-packages/IPython/nbconvert/filters/markdown.py:78: UserWarning: Node.js 0.9.12 or later wasn&apos;t found.
-Nbconvert will try to use Pandoc instead.
-  &quot;Nbconvert will try to use Pandoc instead.&quot;)
-/usr/local/lib/python2.7/dist-packages/IPython/nbconvert/utils/pandoc.py:63: RuntimeWarning: You are using an old version of pandoc (1.9.1)
-Recommended version is 1.12.1.
-Try updating.http://johnmacfarlane.net/pandoc/installing.html.
-Continuing with doubts...
-  check_pandoc_version()
-[NbConvertApp] Writing 201782 bytes to Presentacion_pycones14_NPV.slides.html
-[NbConvertApp] Redirecting reveal.js requests to https://cdn.jsdelivr.net/reveal.js/2.5.0
-Serving your slides at http://127.0.0.1:8000/Presentacion_pycones14_NPV.slides.html
-Use Control-C to stop this server
-WARNING:tornado.access:404 GET /custom.css (127.0.0.1) 0.82ms
-WARNING:tornado.access:404 GET /custom.css (127.0.0.1) 0.83ms
-
-</pre>
+</div>
+    </div><div class="fragment">
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<center>
+<p>
+<img src="images/save_formats.png" width="250" height="225">
+</p>
+</center>
 </div>
 </div>
+</div>
+    </div><div class="fragment">
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<BR>
+<center>
+<p><h10>Además de poder incrustar HTML, CSS, LATEX, Markdown, MATHJAX... </h10></p>
+<h3>
+LAS POSIBILIDADES SON INFINITAS!
+<h3>
+</center>
+</div>
+</div>
+</div>
+    </div></section>
+    </section><section>
+    <section>
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<center>
+<h1>
+Visualizadores online (Ipython Notebook + GitHub)
+</h1>
+<BR>
+<h3>
+Posibilidad de compartición immediata a través de un link
+</h3>
+</center>
+</div>
+</div>
+</div><div class="fragment">
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<center>
+<h3>
+<a href="http://nbviewer.jupyter.org">http://nbviewer.jupyter.org</a><a href="http://nbviewer.ipython.org/github/llevaNEUS/PyConES14/blob/master/examples/usage_example.ipynb"> --&gt; Ejemplo</a>
+</h3>
+<h3>
+<a href="http://slideviewer.herokuapp.com/">http://slideviewer.herokuapp.com/</a><a href="http://slideviewer.herokuapp.com/github/llevaNEUS/PyConES14/blob/master/Presentacion_pycones14_NPV.ipynb"> --&gt; Ejemplo</a>
+</h3>
+</center>
+</div>
+</div>
+</div>
+    </div><div class="fragment">
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<center>
+<h1>
+PERO...
+</h1>
+</center>
+</div>
+</div>
+</div>
+    </div><div class="fragment">
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<center>
+<h3> 
+NOS MUESTRAS PÁGINAS ESTÁTICAS
+</h3>
+<ul>
+<li> 
+NO podemos hacer modificaciones
+</li>
+<li> 
+NO podemos ejecutar el código
+</li>
+</center>
+</div>
+</div>
+</div>
+    </div></section>
+    </section><section>
+    <section>
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<center>
+<h2>
+IPython Notebooks (interactivos???) en red
+</h2>
 
+<h3>
+<a href="https://tmpnb.org/">https://tmpnb.org//</a>
+</h3>
+</center>
+</center>
 </div>
 </div>
+</div><div class="fragment">
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<center>
+<h1>
+PERO...
+</h1>
+</center>
+</div>
+</div>
+</div>
+    </div><div class="fragment">
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<center>
+<h3> 
+Debemos guardar la direción del link generado:
+</h3>
+<h4>
+https://tmpnb.org/user-JHuRl41tthgV/notebooks/Ploting_polar.ipynb
+</h4>
+<ul>
+<li>
+Cualquiera con el link puede modificar
+</li>
+<li>
+No dispone de ningún tipo de CVS
+</li>
+</ul>
+</center>
+</div>
+</div>
+</div>
+    </div></section>
+    </section><section>
+    <section>
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<center>
+<h2>
+Vayamos al truco final...
+</h2>
+</center>
+</div>
+</div>
+</div></section>
+    </section><section>
+    <section>
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<center>
+<h2>
+IPython Notebooks colaborativos en red
+</h2>
+<BR> <h10>Existen diferentes iniciativas:</h10>
+</center>
 
+<ul>
+<li>
+Cloud SageMath
+</li>
+<li>
+coLaboratory
+</li>
+<li>
+Wakari (Continuum analytics)
+</li>
+<li>
+Otros
+</li>
+</ul>
 </div>
-    </div><div style=display:none>
+</div>
+</div></section>
+    </section><section>
+    <section>
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<center>
+<h2>
+Cloud SageMath
+</h2>
+<h3>
+Crea una cuenta de usuario
+</h3>
+<p>
+<img src="images/sagemath_signin.png" width="600" height="225">
+</p>
+</center>
+</div>
+</div>
+</div></section><section>
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<center>
+<h3>
+Crea un Proyecto y los ficheros (o agragalos desde Git)
+</h3>
+<p>
+<img src="images/sagemath_clone.png" width="600" height="225">
+</p>
+</center>
+</div>
+</div>
+</div></section><section>
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<center>
+<h3>
+Abre un fichero y modificalo
+</h3>
+<p>
+<img src="images/sagemath.png" width="600" height="225">
+</p>
+</center>
+</div>
+</div>
+</div></section><section>
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<center>
+<h3>
+Agrega colaboradores, configura las claves SSH and push it!
+</h3>
+<p>
+<img src="images/sagemath_settings.png" width="600" height="225">
+</p>
+</center>
+</div>
+</div>
+</div></section>
+    </section><section>
+    <section>
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<center>
+<h2>
+coLaboratory
+</h2>
+<h3>
+Instala el Plugin para Google Chrome
+</h3>
+
+<p>
+<img src="images/colaboratory_chrome.png" width="600" height="225">
+</p>
+
+</center>
+</div>
+</div>
+</div></section><section>
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<center>
+<h3>
+Instala CollaboratoryApp y arranca el servidor local
+</h3>
+
+<p>
+<img src="images/colaboratory_arranca.png" width="450" height="225">
+</p>
+<p>
+<img src="images/ipython_notebook_drive3.png" width="450" height="225">
+</p>
+<h4>
+https://github.com/jupyter/colaboratory
+</h4>
+
+</center>
+</div>
+</div>
+</div></section><section>
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<center>
+<h3>
+Crea o abra un archibo .ipynb
+</h3>
+
+<p>
+<img src="images/ipython_notebook_chrome4.png" width="350" height="225">
+</p>
+<p>
+<img src="images/ipython_notebook_drive.png" width="350" height="225">
+</p>
+
+</center>
+</div>
+</div>
+</div></section>
+    </section><section>
+    <section>
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<center>
+<h3>
+Wakari
+</h3>
+</center>
+</div>
+</div>
+</div><div style=display:none>
     
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
@@ -2115,7 +2444,7 @@ In&nbsp;[]:
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">
-In&nbsp;[12]:
+In&nbsp;[]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
@@ -2146,15 +2475,15 @@ Recommended version is 1.12.1.
 Try updating.http://johnmacfarlane.net/pandoc/installing.html.
 Continuing with doubts...
   check_pandoc_version()
-[NbConvertApp] Writing 200122 bytes to Presentacion_pycones14_NPV.slides.html
-[NbConvertApp] Redirecting reveal.js requests to https://cdn.jsdelivr.net/reveal.js/2.5.0
+[NbConvertApp] Writing 207934 bytes to Presentacion_pycones14_NPV.slides.html
+[NbConvertApp] Serving local reveal.js
 Serving your slides at http://127.0.0.1:8000/Presentacion_pycones14_NPV.slides.html
 Use Control-C to stop this server
-WARNING:tornado.access:404 GET /custom.css (127.0.0.1) 0.68ms
-WARNING:tornado.access:404 GET /custom.css (127.0.0.1) 0.51ms
-^C
-Interrupted
-
+WARNING:tornado.access:404 GET /custom.css (127.0.0.1) 0.63ms
+WARNING:tornado.access:404 GET /custom.css (127.0.0.1) 0.69ms
+WARNING:tornado.access:404 GET /reveal.js/plugin/notes/notes.js (127.0.0.1) 0.55ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.57ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 1.09ms
 
 </pre>
 </div>
